@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+*.env
+
+# Models & Checkpoints
+models/
+*.pth
+*.safetensors
+*.onnx
+*.ckpt
+
+# Data
+data/output/
+data/logs/
+*.log
+*.mp4
+*.png
+*.jpg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker
+*.tar
